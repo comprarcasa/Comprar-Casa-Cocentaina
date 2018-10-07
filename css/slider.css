@@ -1,0 +1,9 @@
+/* the :nth-of-type(2) allows us to hide the caption on the second slide */
+.slider-section .carousel-inner > .item:nth-of-type(2) > .carousel-caption {
+  display: none;
+}
+
+/* the :nth-of-type(4) allows us to hide the caption on the fourth slide */
+.slider-section .carousel-inner > .item:nth-of-type(4) > .carousel-caption {
+  display: none;
+}
